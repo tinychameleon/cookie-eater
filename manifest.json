@@ -1,0 +1,20 @@
+{
+	"name": "Cookie Eater",
+	"version": "1.0",
+	"description": "Removes cookies from websites",
+	"permissions": [
+		"tabs",
+		"declarativeContent",
+		"cookies",
+		"*://*.youtube.com/"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": false
+	},
+	"page_action": {
+	},
+	"manifest_version": 2
+}
